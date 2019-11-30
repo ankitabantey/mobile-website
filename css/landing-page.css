@@ -51,6 +51,24 @@ header.masthead h1 {
   }
 }
 
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .showcase .showcase-text {
   padding: 3rem;
 }
@@ -101,10 +119,19 @@ header.masthead h1 {
   box-shadow: 0px 5px 5px 0px #adb5bd;
 }
 
+/* .call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background-image: url("img/WEHack BG.png") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+} */
+
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-image: url("img/WEHack BG.jpg");
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -119,6 +146,7 @@ header.masthead h1 {
   left: 0;
   opacity: 0.3;
 }
+
 
 footer.footer {
   padding-top: 4rem;
