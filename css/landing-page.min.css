@@ -72,11 +72,30 @@ header.masthead h1 {
 .tracksDiv{
 	padding-left: 300px;
 	padding-right: 300px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+ 
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+img.softwarepic{
+  width: 100px;
+  height:100px;
+
 }
 
 .features-icons {
   padding-top: 7rem;
   padding-bottom: 7rem;
+
 }
 
 .features-icons .features-icons-item {
@@ -96,7 +115,12 @@ header.masthead h1 {
 }
 
 h3.smallDetails{
-  font-size: 16px;
+  font-size: 19px;
+}
+
+h2.header{
+  font-size: 50px;
+  text-align: center;
 }
 
 .testimonials {
