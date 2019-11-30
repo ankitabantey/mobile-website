@@ -59,12 +59,27 @@
     <div class="container-fluid p-0">
       <div class="row no-gutters">
 
+<<<<<<< HEAD
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>WEHACK Testing</h2>
           <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+=======
+
         </div>
       </div>
+
+      <div class="container-fluid p-1"></div>
+        <div class="row no-gutters">
+  
+          <!-- <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div> -->
+          <div class="row justify-content-md-center my-auto showcase-text">
+          <div class="col-xs-10 order-lg-6 my-auto showcase-text">
+              <h2><td style="text-align:center">Our Impact</td></h2>
+              <p class="lead mb-1"><td style="text-align:center">Insert stats here. maybe some graphics?</td></p>
+            </div>
+          </div>
+
       <div class="row no-gutters">
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
@@ -164,7 +179,7 @@ both in order to apply them to their project </h3>
   </section>
 
   <!-- Call to Action -->
-  <section class="call-to-action text-white text-center">
+  <!-- <section class="call-to-action text-white text-center">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -185,7 +200,32 @@ both in order to apply them to their project </h3>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
+
+  <section class="call-to-action text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h2 class="mb-4">Like to Sponsor? Email us at <p2 onclick="copy(this)"><font color="purple">wehackutd@gmail.com</font></p2></h2>
+            <script>
+              function copy(that){
+                var inp =document.createElement('input');
+                document.body.appendChild(inp)
+                inp.value =that.textContent
+                inp.select();
+                document.execCommand('copy',false);
+                inp.remove();
+                }
+            </script>
+
+          </div>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            
+          </div>
+        </div>
+      </div>
+    </section>
 
   <!-- Footer -->
   <footer class="footer bg-light">
