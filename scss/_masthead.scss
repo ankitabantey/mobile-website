@@ -1,7 +1,7 @@
 header.masthead {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/bg-masthead.jpg') no-repeat center center;
+  background: url('../img/bg-masthead.jpg');
   @include background-cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -15,13 +15,13 @@ header.masthead {
     opacity: 0.3;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   @media (min-width: 768px) {
     padding-top: 12rem;
     padding-bottom: 12rem;
     h1 {
-      font-size: 3rem;
+      font-size: 4rem;
     }
   }
 }
