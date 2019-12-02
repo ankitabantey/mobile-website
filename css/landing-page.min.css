@@ -72,10 +72,14 @@ header.masthead h1 {
 .tracksDiv{
 	padding-left: 300px;
 	padding-right: 300px;
-  padding-top: 100px;
   padding-bottom: 100px;
  
 
+}
+.hardwareTrack{
+  position: relative;
+  float:right;
+  margin-left:130px;
 }
 
 img {
