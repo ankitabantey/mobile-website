@@ -79,10 +79,10 @@ header.masthead h1 {
  
 
 }
+
 .hardwareTrack{
   position: relative;
-  float:right;
-  margin-left:130px;
+  margin-left:160px;
 }
 
 img {
@@ -97,6 +97,11 @@ img.softwarepic{
   width: 100px;
   height:100px;
 
+}
+
+img.hardwarepic{
+  width:103px;
+  height:103px;
 }
 
 .features-icons {
