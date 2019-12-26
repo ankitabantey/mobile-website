@@ -9,6 +9,15 @@ body {
 
 }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 h1,
 h2,
 h4,
@@ -70,6 +79,21 @@ header.masthead h1 {
   }
 }
 
+.statistics{
+  display:flex;
+  justify-content: center;
+}
+
+.stat1{
+  margin-top: 40px;
+  margin-left:110px;
+  margin-right:70px;
+  width:300px;
+}
+
+.stat2{
+  margin-top: 40px;
+}
 
 
 .tracksDiv{
@@ -132,7 +156,7 @@ h3.smallDetails{
 }
 
 h2.header{
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
 }
 
@@ -181,3 +205,43 @@ footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
+.venueTitle{
+  font-size: 25px;
+  color: #503357;
+
+}
+
+.venue{
+  font-size: 45px;
+  font-weight: bold;
+  color: #503357;
+}
+
+.venueDiv{
+  display: flex;
+
+}
+
+.venueDescription{
+  margin: 50px;
+  width: 400px;
+  text-align: right;
+}
+
+.venuePics{
+  margin:20px;
+}
+
+.ecsw {
+  display:none
+}
+
+.right{
+  float:right;
+}
+
+
+
+
+
