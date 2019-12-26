@@ -22,6 +22,9 @@
   <!-- Custom styles for this template -->
   <link href="css/landing-page.min.css" rel="stylesheet">
 
+  
+ 
+
 </head>
 
 <body>
@@ -135,6 +138,7 @@
               display: table;
             }
         </style>
+
         <div class="row">
             <div class="column">
                 <img src="img\wtbLogo.png" alt="wtbLogo" style="width:90%">
@@ -152,16 +156,16 @@
 
       <!-- <div class="container-fluid p-1"></div> -->
 
-      <div class="row no-gutters">
+      <div class="statistics">
           <!-- <div style="position: relative; background-color: #f5f5f5; background-size: cover; width: 100%;"> -->
-          <div class="col-lg-6 my-auto showcase-text">
+          <div class="stat1">
             <h2><font color="#503357">Why WEHack?</font></h2>
             <p class="lead mb-0"><font color="#503357">There is a huge disparity in the number of women and non-binary students participating in hackathons.
               In fact only <font color= "#ef466e"><strong>24% of participants are female</strong></font> and <font color= "#ffa508"><strong>3% of participants identify as non-binary/other.</strong></font>
               So, it is not surprising that this lack of diversity ultimately affects the gender parity in the tech industry at large. By participating, we want students to gain valuable experience through networking,
               and learning from distinguished speakers, inspiring mentors, and peers.</font></p>
           </div>
-          <div class="col-lg-6 text-white showcase-img"><img src= "img\pieChart.png" alt="pieChart" style="width:100%"></div>
+          <div class="stat2"><img src= "img\pieChart.png" alt="pieChart" style="width:540px; height: 400px;"></div>
         </div>
 
     <!--  <div class="row no-gutters">
@@ -236,6 +240,26 @@ both in order to apply them to their project </font></h3>
 ////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////
   -->
+
+  <div class = "venueDiv">
+    <div class = "venueDescription">
+    <p class = "venue"> Venue</p>
+    <p class="lead mb-0" style= "font-size: 25px;"> Erik Jonsson School of Engineering and Computer Science West</p>
+  </div>
+    <div class = "venuePics">
+      <img class = "ecsw" src = "img/ecsw-one.jpg" style="width:600px;height:400px;">
+      <img class = "ecsw" src = "img/ecsw-two.jpg" style="width:600px;height:400px;">
+      <img class = "ecsw" src = "img/ecsw-three.jpg" style="width:600px;height:400px;">
+      <img class = "ecsw" src = "img/ecsw-four.jpg" style="width:600px;height:400px;">
+      <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="right" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+  </div>
+
+
+
+
+  <!-- VENUE-->
 
  <section class="testimonials text-center bg-light lead mb-0">
     <div class="container">
@@ -381,8 +405,15 @@ both in order to apply them to their project </font></h3>
   </footer>
 
   <!-- Bootstrap core JavaScript -->
+  <script src="slideshow.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ 
+
+  
+
+
+
 
 </body>
 
