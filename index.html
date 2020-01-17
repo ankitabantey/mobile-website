@@ -22,8 +22,8 @@
   <!-- Custom styles for this template -->
   <link href="css/landing-page.min.css" rel="stylesheet">
 
-  
- 
+
+
 
 </head>
 
@@ -64,7 +64,7 @@
     header.masthead {
       position: relative;
       background-color: #343a40;
-      background-image: url("img/topHeader.png");
+      background-image: url("img/newheader.png");
       background-size: cover;
       padding-top: 16rem;
       padding-bottom: 16rem;
@@ -86,7 +86,25 @@
       margin: 10px 10px;
       border-radius: 12px;
     }
+
+    .button2 {
+      position: relative;
+      top: 50%;
+      transform: translateY(390%);
+
+      background-color: transparent;
+      border: none;
+      color: white;
+       padding: 12px;
+      text-align: center;
+      /*text-decoration: none;
+      display: inline-block; */
+      font-size: 12px;
+      margin: 10px 10px;
+      border-radius: 12px;
+    }
     </style>
+
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
@@ -102,6 +120,12 @@
         </div>
       </div>
     </div>
+    <header class="header">
+      <!-- <a href="https://impact.utdallas.edu/project/16905" target="_blank" class="button2">Or Donate</a> -->
+      <button onclick="alert('Registration will open soon:)');" id="myButton"><p class="lead mb-0">Register Now!</p></button>
+      <button onclick="window.location.href = 'https://impact.utdallas.edu/project/16905';"><p/class="lead mb-0">Or Donate!</p></button>
+    </header>
+  <!-- Donate -->
   </header>
 
   <!-- Image Showcases -->
@@ -157,9 +181,9 @@
           <div class="stat1">
             <h2><font color="#503357">Why WEHack?</font></h2>
             <p class="lead mb-0"><font color="#503357">There is a huge disparity in the number of women and non-binary students participating in hackathons.
-              In fact only <font color= "#ef466e">24% of participants are female</font> and <font color= "#ffa508">3% of participants identify as non-binary/other.</font>
+              In fact only <font color= "#ef466e"><strong>24% of participants are female</strong></font> and <font color= "#ffa508"><strong>3% of participants identify as non-binary/other.</strong></font>
               So, it is not surprising that this lack of diversity ultimately affects the gender parity in the tech industry at large. By participating, we want students to gain valuable experience through networking,
-              and learning from distinguished speakers, inspiring mentors, and peers</font></p>
+              and learning from distinguished speakers, inspiring mentors, and peers.</font></p>
           </div>
           <div class="stat2"><img src= "img\pieChart.png" alt="pieChart" style="width:540px; height: 400px;"></div>
         </div>
@@ -209,8 +233,8 @@ both in order to apply them to their project </font></h3>
               <img src = "img/software.png" class = "softwarepic">
 
             </div>
-            <h3>Software Track</h3>
-            <p class="lead mb-0">Robots are geared by programs written by developers. With instructions, they can follow a series of tasks that makes it possible for them to do complex functions. </p>
+            <h3><font color="#503357">Software Track</font></h3>
+            <p class="lead mb-0"><font color="#503357">Robots are geared by programs written by developers. With instructions, they can follow a series of tasks that makes it possible for them to do complex functions.</font> </p>
           </div>
         </div>
 
@@ -218,11 +242,11 @@ both in order to apply them to their project </font></h3>
           <div class="features-icons-item mx-auto mb-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
 
-              <img src = "img/hardware.png" class = "hardwarepic">
+              <img src = "img\hardwarelogo.png" class = "hardwarepic">
 
             </div>
-            <h3>Hardware Track</h3>
-            <p class="lead mb-0">Robots wouldn't be robots without their physical hardware. With their 'bodies', they are able to complete tasks set by software developers. </p>
+            <h3><font color="#503357">Hardware Track</font></h3>
+            <p class="lead mb-0"><font color="#503357">Robots wouldn't be robots without their physical hardware. With their 'bodies', they are able to complete tasks set by software developers.</font> </p>
           </div>
         </div>
     </div>
@@ -237,6 +261,8 @@ both in order to apply them to their project </font></h3>
 ////////////////////////////////////////////////////////////////////////////////////////////
   -->
 
+
+<!-- ======= -->
   <div class = "venueDiv">
     <div class = "venueDescription">
     <p class = "venue"> Venue</p>
@@ -307,6 +333,180 @@ both in order to apply them to their project </font></h3>
     </div>
   </section>
 
+  <!-- <<<<<<< FAQ -->
+<section class ="FAQS">
+  <div class ="questions">
+    <!-- FAQ INFO -->
+    <div>
+      <center><h1 class="FAQ Title"><font color="#503357">Frequently Asked Questions</font></h1></center>
+    </div>
+    <div class="lead mb-0" class="btn-group">
+      <table>
+        <!-- Row 1 -->
+        <tr>
+          <td>
+           <p>
+             <button class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#collapseExample"x aria-expanded="false" aria-controls="collapseExample">
+               Who can attend WEHack 2020?
+             </button>
+           </p>
+           <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>People who identify as female or non-binary may sign-up to participate for this hackathon. To know more about whether you qualify to participate in this hackathon, please visit: “Gender tab.” If you do not identify as female or non-binary but you consider yourself an ally of our cause, we would love to have you as a mentor or volunteer! More info on how to become a mentor/volunteer will come out soon.</p>
+            </div>
+           </div>
+          </td>
+          <td>
+            <p>
+             <button class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+               When and where is WEHack 2020?
+             </button>
+           </p>
+           <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>WEHack 2020 will be happening from April 4th-5th and will be located in the ECSW building at the UTD campus!</p>
+            </div>
+           </div>
+          </td>
+          <td>
+            <p>
+             <button class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+               Do I need to be a CS major/minor?
+             </button>
+           </p>
+           <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>No! WEHack 2020 is open to all majors and would be the perfect place to start your first coding project!</p>
+            </div>
+           </div>
+          </td>
+        </tr>
+        <!-- Row 1 -->
+        <!-- Row 2 -->
+        <tr>
+          <td>
+            <p>
+             <button class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+               How do I apply?
+             </button>
+           </p>
+           <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>To apply, click here. Applications are open now until “__.” Mentor and volunteer apps will open “__.”</p>
+            </div>
+           </div>
+          </td>
+          <td>
+            <p>
+             <button class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+               Can I participate if I am a high schooler?
+             </button>
+           </p>
+           <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>If you are a high schooler who will be at least 18 years old by WEHack 2020, we would love to have you participate in our hackathon! If you will not be 18 by WEHack 2020, unfortunately you can not participate in our hackathon but feel free to stop by, take a look at some of our hackers amazing projects, attend workshops, and network with other students/companies!</p>
+            </div>
+           </div>
+          </td>
+          <td>
+            <p>
+             <button class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+               How can I mentor or volunteer at WEHack 2020?
+             </button>
+           </p>
+           <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>More info coming on this soon</p>
+            </div>
+           </div>
+          </td>
+        </tr>
+        <!-- Row 2 -->
+        <!-- Row 3 -->
+        <tr>
+          <td>
+            <p>
+             <button class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+               Does this cost money?
+             </button>
+           </p>
+           <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>WEHack 2020 is completely free! We will cover your overnight stay, meals (with plenty of snacks of course), swag, provided by our wonderful sponsors, and prizes!</p>
+            </div>
+           </div>
+          </td>
+          <td>
+            <p>
+             <button class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+               How do teams at WEHack 2020 work?
+             </button>
+           </p>
+           <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>Teams can have up to “__” members. If you already have team members in mind, just include their names in the team section while filling out our application to form your team. If you do not have a team, don’t worry! Based on your answers to our application, we will place you in a team with similar interests and skill levels.</p>
+            </div>
+           </div>
+          </td>
+          <td>
+            <p>
+             <button class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+               When are applications for WEHack 2020 due? When will I hear back?
+             </button>
+           </p>
+           <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>Applications for WEHack 2020 are due by “___.” You will hear back from us by “___.”</p>
+            </div>
+           </div>
+          </td>
+        </tr>
+        <!-- Row 3 -->
+        <!-- Row 4 -->
+        <tr>
+          <td>
+            <p>
+             <button class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+               Will there be hardware available?
+             </button>
+           </p>
+           <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>Companies will be providing hardware for you!</p>
+            </div>
+           </div>
+          </td>
+          <td>
+            <p>
+             <button class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+               What should I bring?
+             </button>
+           </p>
+           <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>Please bring a valid ID for admission and anything that will help you on your project.</p>
+            </div>
+           </div>
+          </td>
+          <td>
+            <p>
+             <button class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+               Can I sleep at WEHack 2020? Where will I sleep?
+             </button>
+           </p>
+           <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>Yes, you can sleep at WEHack 2020!</p>
+            </div>
+           </div>
+          </td>
+        </tr>
+        <!-- Row 4 -->
+      </table>
+    </div>
+  </div>
+</section>
+
   <!-- Call to Action -->
   <!-- <section class="call-to-action text-white text-center">
     <div class="overlay"></div>
@@ -372,7 +572,7 @@ both in order to apply them to their project </font></h3>
       <div class="row">
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
           <ul class="list-inline mb-2">
-          
+
             </li>
           </ul>
           <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
@@ -404,9 +604,9 @@ both in order to apply them to their project </font></h3>
   <script src="slideshow.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
- 
 
-  
+
+
 
 
 
