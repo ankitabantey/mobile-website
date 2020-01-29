@@ -258,6 +258,13 @@ footer.footer {
   float:right;
 }
 
+.questions button {
+  border: solid;
+  border-color: #503357;
+  color: #503357;
+}
+
+
 
 
 
