@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <meta name=”viewport” content=”width=device-width, initial-scale=1″>
 
   <title>WEHack</title>
 
@@ -22,8 +23,8 @@
   <!-- Custom styles for this template -->
   <link href="css/landing-page.min.css" rel="stylesheet">
 
-  
- 
+
+
 
 </head>
 
@@ -65,7 +66,7 @@
       position: relative;
       background-color: #343a40;
       background-image: url("img/newheader.png");
-      background-size: cover;
+      background-size: contain;
       padding-top: 16rem;
       padding-bottom: 16rem;
     }
@@ -86,9 +87,31 @@
       margin: 10px 10px;
       border-radius: 12px;
     }
+
+    .button2 {
+      position: relative;
+      top: 50%;
+      transform: translateY(390%);
+
+      background-color: transparent;
+      border: none;
+      color: white;
+       padding: 12px;
+      text-align: center;
+      /*text-decoration: none;
+      display: inline-block; */
+      font-size: 12px;
+      margin: 10px 10px;
+      border-radius: 12px;
+    }
     </style>
 
+  
+
+    
+
     <div class="container">
+
       <div class="row">
         <div class="col-xl-9 mx-auto">
           <h1 class="mb-5"></h1>
@@ -103,21 +126,26 @@
         </div>
       </div>
     </div>
+
     <header class="header">
+      <!-- <a href="https://impact.utdallas.edu/project/16905" target="_blank" class="button2">Or Donate</a> -->
       <button onclick="alert('Registration will open soon:)');" id="myButton"><p class="lead mb-0">Register Now!</p></button>
+      <button onclick="window.location.href = 'https://impact.utdallas.edu/project/16905';"><p/class="lead mb-0">Or Donate!</p></button>
     </header>
+  <!-- Donate -->
   </header>
 
   <!-- Image Showcases -->
-  <section class="showcase">
+  <section class="showcase w-100">
     <div class="container-fluid p-0">
+ 
       <div class="row no-gutters">
 
         <!-- <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div> -->
         <!-- <div class="col-xs-6 order-lg-6 my-auto showcase-text"> -->
         <div class="row justify-content-md-center my-auto showcase-text">
           <h2><font color="#503357">At WEHack, we're looking to shape the future of technology</font></h2>
-          <center><p class="lead mb-0"><font color="#503357">UTD's female-driven tech organizations are excited to join forces and present our first all female, non-binary, 24-hour hackathon. Our goal is to create an inclusive environment that highlights and empowers female and non-binary students through technology. We aim to
+          <center><p class="lead mb-0"><font color="#503357">UTD's female-driven tech organizations are excited to join forces and present our first all female, non-binary, 24-hour hackathon. Our goal is to create an inclusive environment that highlights and empowers women and non-binary students through technology. We aim to
               encourage more underrepresented people to harness their skills to create projects of their own.</font></p></center>
 
         <style>
@@ -126,42 +154,61 @@
             }
 
             .column {
-              float: left;
+              float: right;
               width: 25%;
-              padding: 50px;
+              padding: 25px;
+            }
+
+            .column1 {
+              float: center;
+              width: 100%;
+              padding: 0px;
+            }
+
+            .column3 {
+              float: right;
+              width: 33.33%;
+              padding: 0px;
             }
 
             /* Clearfix (clear floats) */
             .row::after {
+              padding: 20px;
               content: "";
               clear: both;
               display: table;
             }
+
+            .rowpics{
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
         </style>
 
         <div class="row">
-            <div class="column">
-                <img src="img\wtbLogo.png" alt="wtbLogo" style="width:90%">
+            <div class="col-3">
+                <img class="img-fluid" src="img\wtbLogo.png" alt="wtbLogo" style="width:90%">
               </div>
-            <div class="column">
-              <img src="img\sweLogo.png" alt="sweLogo" style="width:80%">
+            <div class="col-3">
+              <img class="img-fluid" src="img\sweLogo.png" alt="sweLogo" style="width:85%">
             </div>
-            <div class="column">
-              <img src="img\wwcLogo.png" alt="wwcLogo" style="width:60%">
+            <div class="col-3">
+              <img class="img-fluid" src="img\wwc-shirt-back.png" alt="wwcLogo" style="width:100%">
             </div>
-            <div class="column">
-              <img src="img\wmwLogo.jpg" alt="wmwLogo" style="width:130%">
+            <div class="col-3">
+              <img class="img-fluid" src="img\wmwLogo.jpg" alt="wmwLogo" style="width:130%">
             </div>
         </div>
 
       <!-- <div class="container-fluid p-1"></div> -->
 
-      <div class="statistics">
+      <div class="statistics w-100">
           <!-- <div style="position: relative; background-color: #f5f5f5; background-size: cover; width: 100%;"> -->
           <div class="stat1">
             <h2><font color="#503357">Why WEHack?</font></h2>
             <p class="lead mb-0"><font color="#503357">There is a huge disparity in the number of women and non-binary students participating in hackathons.
-              In fact only <font color= "#ef466e"><strong>24% of participants are female</strong></font> and <font color= "#ffa508"><strong>3% of participants identify as non-binary/other.</strong></font>
+              In fact only <font color= "#ef466e"><strong>24% of participants are women</strong></font> and <font color= "#ffa508"><strong>3% of participants identify as non-binary/other.</strong></font>
               So, it is not surprising that this lack of diversity ultimately affects the gender parity in the tech industry at large. By participating, we want students to gain valuable experience through networking,
               and learning from distinguished speakers, inspiring mentors, and peers.</font></p>
           </div>
@@ -334,6 +381,8 @@ both in order to apply them to their project </font></h3>
             <div class="card card-body">
               <p>People who identify as female or non-binary may sign-up to participate for this hackathon.If you do not identify as female or non-binary but you consider yourself an ally of our cause, we would love to have you as a mentor or volunteer! More info on how to become a mentor/volunteer will come out soon.</p>
             </div>   
+              <p>People who identify as female or non-binary may sign-up to participate for this hackathon. To know more about whether you qualify to participate in this hackathon, please visit: “Gender tab.” If you do not identify as female or non-binary but you consider yourself an ally of our cause, we would love to have you as a mentor or volunteer! More info on how to become a mentor/volunteer will come out soon.</p>
+            </div>
            </div>
           </td>
           <td>
@@ -345,7 +394,7 @@ both in order to apply them to their project </font></h3>
            <div class="collapse" id="collapseExample2">
             <div class="card card-body">
               <p>WEHack 2020 will be happening from April 4th-5th and will be located in the ECSW building at the UTD campus!</p>
-            </div>   
+            </div>
            </div>
           </td>
           <td>
@@ -357,7 +406,7 @@ both in order to apply them to their project </font></h3>
            <div class="collapse" id="collapseExample3">
             <div class="card card-body">
               <p>No! WEHack 2020 is open to all majors and would be the perfect place to start your first coding project!</p>
-            </div>   
+            </div>
            </div>
           </td>
         </tr>
@@ -374,6 +423,8 @@ both in order to apply them to their project </font></h3>
             <div class="card card-body">
               <p>Hacker and Mentor Applications are not open yet. Please check back soon for updates.</p>
             </div>   
+              <p>To apply, click here. Applications are open now until “__.” Mentor and volunteer apps will open “__.”</p>
+            </div>
            </div>
           </td>
           <td>
@@ -385,7 +436,7 @@ both in order to apply them to their project </font></h3>
            <div class="collapse" id="collapseExample5">
             <div class="card card-body">
               <p>If you are a high schooler who will be at least 18 years old by WEHack 2020, we would love to have you participate in our hackathon! If you will not be 18 by WEHack 2020, unfortunately you can not participate in our hackathon but feel free to stop by, take a look at some of our hackers amazing projects, attend workshops, and network with other students/companies!</p>
-            </div>   
+            </div>
            </div>
           </td>
           <td>
@@ -397,7 +448,9 @@ both in order to apply them to their project </font></h3>
            <div class="collapse" id="collapseExample6">
             <div class="card card-body">
               <p>More info coming on this soon.</p>
-            </div>   
+            </div>
+              <p>More info coming on this soon</p>
+            </div>
            </div>
           </td>
         </tr>
@@ -413,7 +466,7 @@ both in order to apply them to their project </font></h3>
            <div class="collapse" id="collapseExample7">
             <div class="card card-body">
               <p>WEHack 2020 is completely free! We will cover your overnight stay, meals (with plenty of snacks of course), swag, provided by our wonderful sponsors, and prizes!</p>
-            </div>   
+            </div>
            </div>
           </td>
           <td>
@@ -425,7 +478,9 @@ both in order to apply them to their project </font></h3>
            <div class="collapse" id="collapseExample8">
             <div class="card card-body">
               <p>Teams at WEHack can have approximately 4 to 6 members. If you already have team members in mind, just include their names in the team section while filling out our application to form your team. If you do not have a team, don’t worry! Based on your answers to our application, we will place you in a team with similar interests and skill levels.</p>
-            </div>   
+            </div>
+              <p>Teams can have up to “__” members. If you already have team members in mind, just include their names in the team section while filling out our application to form your team. If you do not have a team, don’t worry! Based on your answers to our application, we will place you in a team with similar interests and skill levels.</p>
+            </div>
            </div>
           </td>
           <td>
@@ -437,7 +492,9 @@ both in order to apply them to their project </font></h3>
            <div class="collapse" id="collapseExample9">
             <div class="card card-body">
               <p>Applications for WEHack 2020 are due on March 6th. You will hear back from us on March 16th.</p>
-            </div>   
+            </div>
+              <p>Applications for WEHack 2020 are due by “___.” You will hear back from us by “___.”</p>
+            </div>
            </div>
           </td>
         </tr>
@@ -453,7 +510,9 @@ both in order to apply them to their project </font></h3>
            <div class="collapse" id="collapseExample10">
             <div class="card card-body">
               <p>We will be providing hardware for you!</p>
-            </div>   
+            </div>
+              <p>Companies will be providing hardware for you!</p>
+            </div>
            </div>
           </td>
           <td>
@@ -465,7 +524,7 @@ both in order to apply them to their project </font></h3>
            <div class="collapse" id="collapseExample11">
             <div class="card card-body">
               <p>Please bring a valid ID for admission and anything that will help you on your project.</p>
-            </div>   
+            </div>
            </div>
           </td>
           <td>
@@ -477,7 +536,7 @@ both in order to apply them to their project </font></h3>
            <div class="collapse" id="collapseExample12">
             <div class="card card-body">
               <p>Yes, you can sleep at WEHack 2020!</p>
-            </div>   
+            </div>
            </div>
           </td>
         </tr>
@@ -485,6 +544,80 @@ both in order to apply them to their project </font></h3>
       </table>
     </div>
   </div>
+</section>
+
+
+<!--Committee head pics-->
+<section class="testimonials text-center bg-light lead mb-0">
+  <div class="container">
+    <div>
+    <center><h2 class="col-lg-6 my-auto showcase-text"><font color="#503357">Meet the Team</font></h2></center>
+    <div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+        </div>
+      </div>
+
+    <!-- <div class="col-md-3 col-sm-4 project team-2 officers" data-filter="board,hackutd,labs,operations,projects,education,ignite">
+        <div class="background-image-holder">
+          <img alt="project image" class="background-image" src="img\alisa thomas- co-founder-400x600-40x60.JPG">
+        </div>
+        <h6>Alisa Thomas</h6>
+        <h6><i>President</i></h6> -->
+
+        <div class="row">
+            <div class="column3">
+                <p ><img src="img\alisa thomas- co-founder-400x600.JPG" alt="wtbLogo" style="width:60%" ></p> 
+                <h6>Alisa Thomas</h6>
+                <h6><i>Co-Founder</i></h6>
+               </div>
+             <div class="column3">
+                 <p><img src="img\medha_cofounder-400x600.JPG" alt="wtbLogo" style="width:60%" ></p> 
+                 <h6>Medha Aiyah</h6>
+                <h6><i>Co-Founder</i></h6>
+             </div>
+             <div class="column3">
+                 <p><img src="img\nisha rajesh- marketing-400x600.JPG" alt="wtbLogo" style="width:60%" ></p> 
+                 <h6>Nisha Rajesh</h6>
+                <h6><i>Marketing Head</i></h6>
+               </div>
+        </div>
+        <div class="row">
+            <div class="column3">
+               <p ><img src="img\shireen bahadur- logistics-400x600.JPG" alt="wtbLogo" style="width:60%" ></p> 
+               <h6>Shireen Bahadur</h6>
+                <h6><i>Logistics Head</i></h6>
+              </div>
+            <div class="column3">
+                <p><img src="img\maaha sakhia- experience lead-400x600.JPG" alt="wtbLogo" style="width:60%" ></p> 
+                <h6>Maaha Sakhia</h6>
+                <h6><i>Experience Head</i></h6>
+            </div>
+            <div class="column3">
+                <p><img src="img\ankita- dev lead-400x600.JPG" alt="wtbLogo" style="width:60%" ></p> 
+                <h6>Ankita Bantey</h6>
+                <h6><i>Development Head</i></h6>
+              </div>
+        </div>
+        
+        <div class="row">
+            <div class="column3">
+               <p  style="color: rgb(255, 248, 248);">placeholder...........................................................p</p> 
+    
+              </div>
+            <div class="column3">
+                <p><img src="img\afrida tasnim- industry_treasury-400x600.JPG" alt="wtbLogo" style="width:61%" ></p> 
+                <h6>Afrida Tasnim</h6>
+                <h6><i>Industry Head</i></h6>
+            </div>
+            <div class="column3">
+                <p  style="color: rgb(255, 248, 248);">p...........................................................placeholder</p> 
+                
+              </div>
+        </div>
+        
+
 </section>
 
   <!-- Call to Action -->
@@ -555,22 +688,22 @@ both in order to apply them to their project </font></h3>
 
             </li>
           </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; WeHack 2019. All Rights Reserved.</p>
         </div>
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
-              <a href="https://www.facebook.com/sweutd/">
+              <a href="http://facebook.com/groups/WEHack2020">
                 <i class="fab fa-facebook fa-2x fa-fw"></i>
               </a>
             </li>
             <li class="list-inline-item mr-3">
-              <a href="https://twitter.com/sweutd?lang=en">
+              <a href="http://twitter.com/wehackutd">
                 <i class="fab fa-twitter-square fa-2x fa-fw"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.instagram.com/sweutd/?hl=af">
+              <a href= "http://instagram.com/wehackutd/">
                 <i class="fab fa-instagram fa-2x fa-fw"></i>
               </a>
             </li>
@@ -584,9 +717,9 @@ both in order to apply them to their project </font></h3>
   <script src="slideshow.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
- 
 
-  
+
+
 
 
 
