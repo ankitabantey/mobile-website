@@ -197,6 +197,7 @@ td {
 
 #sponsorInfo {
   margin-top: 3rem;
+  color: #503357;
 }
 
 .call-to-action {
@@ -257,6 +258,13 @@ footer.footer {
 .right{
   float:right;
 }
+
+.questions button {
+  border: solid;
+  border-color: #503357;
+  color: #503357;
+}
+
 
 
 
